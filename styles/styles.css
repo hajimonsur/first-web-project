@@ -8,7 +8,7 @@
 }
 header{
     background-color: #1F2235;
-    padding: 5px 70px;
+     padding: 5px 70px;
     position: fixed;
     width: 100%;
   
@@ -32,7 +32,7 @@ nav a{
 }
 ul{
    
-    display: inline;
+    display: flex;
 }
 nav li{
     list-style-type: none;
@@ -46,59 +46,68 @@ nav li :hover{
     color: #DB3949;
 }
 
-/* starting homepage styling */
+/* homepage styling */
 
 #home{
-    background-color: #24263B;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    background-color: hsl(235, 24%, 19%);
+    padding: 150px 50px;
    
-  
-
-    
 }
 
 #leftbox{
-    padding-top: 80px;
-    padding-left: 70px;
+    padding: 40px 15px;
+    padding-right: 50px;
+    
 }
+
 .socialicon{
     border: #DB3949 2px solid;
     background-color:#1F2235 ;
     border-radius: 50%;
-    padding: 10px ;
+    width: 40px;
+    height: 40px;
+
     
-    display:relative;
-   justify-content: space-between;
+    display: flex;
+    align-items: center;
+   justify-content: center;
 }
+
 .socialicon:hover{
     background-color: #DB3949;
 }
+
 #icons{
     padding-bottom: 40px;
-    margin-right: 300px;
+    width: 300px;
+
   
 
 }
+
 #profile{
     padding-top: 10px;
-    width: 500px;
-    height: 800px;
+    height: 400px;
  
 }
+
 #textcontent{
     padding-top: 20px;
-    padding-left: 5px;
-    font-size: 25px;
-    line-height: 1.8;
+    /* padding-left: 5px; */
+    font-size: 24px;
+
+    line-height: 45px;
     padding-bottom: 30px;
 }
+
+
 .sectiontitle{
     font-size: 30px;
     padding-top: 10px;
     font-weight: 300px;
     padding-left: 5px;
 }
+
 .button{
         background-color: #1F2235;
         width: 120px;
@@ -111,13 +120,100 @@ nav li :hover{
 .button:hover{
     background-color: #DB3949;
 }
+
+/* cta button */
 #play{
 background-color: #DB3949;
 width: 80px;
 height: 50px;
 border-radius: 60px;
 }
-/* services section */
+
+/* services section stlye */
+.colcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 #services{
     background-color: #24263B;
+   
+}
+
+.para{
+    text-align: center;
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    margin-bottom: 30px;
+    width: 60%;
+    
+
+    
+}
+
+.divider{
+    width: 100px;
+    height: 2px;
+    border-color: #DB3949;
+    margin: 20px 0;
+}
+   
+
+.smalltitle{
+    font-size: 16px;
+    color: #DB3949;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.servicecard{
+    background-color: #1F2235;
+    width: 350px;
+    height: 350px;
+    border-radius: 24px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.servicecard:hover{
+    background-color: #DB3949;
+    i{
+        color: #fff;}
+   
+}
+
+.servicecard i{
+    font-size: 50px;
+ color: #DB3949;
+ padding: 30px 20px;
+}
+
+.servicecard p{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    padding: 20px;
+    
+}
+
+#bottombox{
+   
+    flex-wrap: wrap;
+}
+
+.servicecard h3{
+    font-size: 24px;
+    padding: 20px;
+
+
 }
