@@ -217,3 +217,43 @@ border-radius: 60px;
 
 
 }
+
+/* about styling begins here */
+
+#about{
+    background-color: #24263B;
+    padding-top: 100px;
+}
+
+#aboutleft{
+    margin: 40px 100px;
+}
+
+#aboutright{
+    margin: 130px 100px;
+    flex-wrap: wrap;
+}
+
+.aboutpara{
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 500px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+}
+
+
+
+#namephone{
+    padding-top: 20px;
+    width: 80%;
+}
+
+#emaillink{
+    padding: 20px 0;
+    width: 84%;
+}
+
+.font{
+    font-weight: 700;
+}
