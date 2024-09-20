@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+
+}
+header{
+    background-color: #1F2235;
+     padding: 5px 200px;
+    position: fixed;
+    width: 100%;
+  
+
+}
+#brandlogo{
+    width: 100px;
+    padding-top: 18px ;
+   
+}
+.rowcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+nav a{
+   
+    text-decoration: none;
+}
+ul{
+   
+    display: flex;
+
+}
+nav li{
+    list-style-type: none;
+    
+        display: inline-block;
+        padding: 10px;
+        margin: 10px;
+    
+}
+nav li :hover{
+    color: #DB3949;
+}
+
+/* homepage styling */
+
+#home{
+    background-color: hsl(235, 24%, 19%);
+    padding: 150px 200px;
+   
+}
+
+#leftbox{
+    padding: 80px 5px;
+    padding-right: 70PXx;
+    
+}
+
+.socialicon{
+    border: #DB3949 2px solid;
+    background-color:#1F2235 ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+    
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.socialicon:hover{
+    background-color: #DB3949;
+}
+
+#icons{
+    padding-bottom: 40px;
+    width: 300px;
+
+  
+
+}
+
+#profile{
+    padding-top: 10px;
+    height: 500px;
+ 
+}
+
+#textcontent{
+    padding-top: 20px;
+    /* padding-left: 5px; */
+    font-size: 25px;
+
+    line-height: 45px;
+    padding-bottom: 30px;
+}
+
+
+.sectiontitle{
+    font-size: 50px;
+    padding-top: 10px;
+    font-weight: 300px;
+    padding-left: 5px;
+}
+
+.button{
+        background-color: #1F2235;
+        width: 120px;
+      height: 50px;
+        margin-right: 10px; 
+        border-radius: 100px;
+        border: #DB3949 2px solid; 
+}
+
+.button:hover{
+    background-color: #DB3949;
+}
+
+/* cta button */
+#play{
+background-color: #DB3949;
+width: 80px;
+height: 50px;
+border-radius: 60px;
+}
+
+/* services section stlye */
+.colcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#services{
+    background-color: #24263B;
+   
+}
+
+.para{
+    text-align: center;
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    margin-bottom: 30px;
+    width: 60%;
+    
+
+    
+}
+
+.divider{
+    width: 100px;
+    height: 2px;
+    border-color: #DB3949;
+    margin: 20px 0;
+}
+   
+
+.smalltitle{
+    font-size: 16px;
+    color: #DB3949;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.servicecard{
+    background-color: #1F2235;
+    width: 350px;
+    height: 350px;
+    border-radius: 24px;
+    padding: 10px;
+    margin: 20px 5px;
+    
+    
+
+}
+
+.servicecard:hover{
+    background-color: #DB3949;
+    i{
+        color: #fff;}
+   
+}
+
+.servicecard i{
+    font-size: 50px;
+ color: #DB3949;
+ padding: 30px 20px;
+}
+
+.servicecard p{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    padding: 20px;
+    
+}
+
+#bottombox{
+    flex-wrap: wrap;
+    padding: 150px;
+ 
+}
+
+.servicecard h3{
+    font-size: 24px;
+    padding: 20px;
+
+
+}
+
+/* about styling begins here */
+
+#about{
+    background-color: #24263B;
+    padding-top: 100px;
+}
+
+#aboutleft{
+    margin: 40px 100px;
+}
+
+#aboutright{
+    margin: 130px 100px;
+    flex-wrap: wrap;
+}
+
+.aboutpara{
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 500px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+}
+
+
+
+#namephone{
+    padding-top: 20px;
+    width: 80%;
+}
+
+#emaillink{
+    padding: 20px 0;
+    width: 84%;
+}
+
+.font{
+    font-weight: 700;
+}
+
+.blogimage{
+    width: 100px;
+}
