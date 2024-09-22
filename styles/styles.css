@@ -110,7 +110,7 @@ nav li :hover{
 .button{
         background-color: #1F2235;
         width: 150px;
-      height: 50px;
+         height: 50px;
         margin-right: 10px; 
         border-radius: 100px;
         border: #DB3949 2px solid; 
@@ -157,10 +157,10 @@ border-radius: 60px;
 }
 
 .divider{
-    width: 100px;
-    height: 2px;
-    border-color: #DB3949;
-    margin: 20px 0;
+    width: 70px;
+    /* height: 200px; */
+    border:2px solid #DB3949;
+    /* margin: 20px 0; */
 }
    
 
@@ -254,7 +254,7 @@ border-radius: 60px;
 #emaillink{
     padding: 20px 0;
     width: 84%;
-    padding: ;
+ 
 }
 
 
@@ -323,4 +323,180 @@ border-radius: 60px;
 .skillwid3{
 
     width: 220px;
+}
+
+
+/* portfolio section styling starts here */
+
+#portfolio{
+
+    background-color: #23263A;
+}
+
+.port{
+
+    text-align: center;
+}
+
+.portnav{
+
+    /* align-items: center; */
+   padding-left: 440px;
+   margin-top: 30px;
+}
+
+.portbtn{
+
+    background-color: #1F2235;
+    width: 100px;
+  height: 35px;
+    margin-right: 10px; 
+    border-radius: 100px;
+    border: #DB3949 2px solid;
+}
+
+.portbtn:hover{
+    background-color: #DB3949;
+}
+
+#portimages{
+    margin: 30px 30px 100px 30px;
+}
+
+.imagecol{
+    display: flex;
+    flex-direction: column;
+}
+
+#leftportimage {
+    padding-left: 200px;
+}
+
+#rightportimage{
+    padding-right: 200px;
+}
+
+.portradius{
+    padding-bottom: 25px;
+    border-radius: 14px;
+     
+}
+
+
+/* pricing stlying */
+
+.divider2{
+    width: 350px;
+    border:1px solid dimgray;
+    
+
+}
+
+#pricing{
+
+    /* background-color: #1F2235; */
+
+}
+
+#plans{
+    margin: 30px 185px 30px 185px;
+   
+    
+}
+
+
+#leftplans{
+
+   
+    height: 100%;
+    text-align: center;
+padding-bottom: 90px;
+margin-top: 61px;
+background-color: #23263A;
+}
+
+#leftplans p{
+    padding: 30px 0px 10px 0px;
+}
+
+.recom{
+
+    margin-bottom: 41px;
+    padding: 2px;
+    border: solid red;
+    background-color: #DB3949;
+    width: 40%;
+    height: 40%;
+    border-radius: 25px ;
+    margin-left: 106px;
+}
+
+#middleplans{
+
+    border:red solid 2px ;
+    height: 100%;
+    text-align: center;
+    
+}
+
+#middleplans p{
+    padding: 30px 0px 10px 0px;
+}
+
+
+#rightplans{
+
+   
+    height: 100%;
+    text-align: center;
+    margin-top: 61.1px;
+
+}
+
+#rightplans p{
+    padding: 30px 0px 10px 0px;
+    /* margin-top: 40px; */
+}
+
+
+#recomended{
+
+    background-color: red;
+    width: 150px;
+     height: 50px;
+    margin-right: 10px; 
+    border-radius: 100px;
+    margin: 20px;
+    /* border: #DB3949 2px solid; */
+}
+
+.pricebtn{
+
+    margin-top: 20px;
+}
+
+/* overview styling */
+
+#overview{
+
+    background-color: #23263A;
+    margin:30px 250px 70px 250px;
+    justify-content: space-between;
+}
+
+.overfont{
+
+    color: #DB3949;
+    font-size: 60px;
+    padding-left: 10px;
+}
+
+.overicon{
+
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.overpara{
+    font-size: 16px;
 }
