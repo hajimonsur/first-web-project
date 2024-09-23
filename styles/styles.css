@@ -6,6 +6,7 @@
     font-family: "Poppins", sans-serif;
 
 }
+
 header{
     background-color: #1F2235;
      padding: 5px 200px;
@@ -14,11 +15,13 @@ header{
   
 
 }
+
 #brandlogo{
     width: 100px;
     padding-top: 18px ;
    
 }
+
 .rowcontent{
     display: flex;
     flex-direction: row;
@@ -30,11 +33,13 @@ nav a{
    
     text-decoration: none;
 }
+
 ul{
    
     display: flex;
 
 }
+
 nav li{
     list-style-type: none;
     
@@ -43,6 +48,7 @@ nav li{
         margin: 10px;
     
 }
+
 nav li :hover{
     color: #DB3949;
 }
@@ -121,6 +127,7 @@ nav li :hover{
 }
 
 /* cta button */
+
 #play{
 background-color: #DB3949;
 width: 80px;
@@ -129,6 +136,7 @@ border-radius: 60px;
 }
 
 /* services section stlye */
+
 .colcontent{
     display: flex;
     flex-direction: column;
@@ -187,7 +195,7 @@ border-radius: 60px;
 
 .servicecard:hover{
     background-color: #DB3949;
-    i{
+    i {
         color: #fff;}
    
 }
@@ -333,6 +341,12 @@ border-radius: 60px;
     background-color: #23263A;
 }
 
+.portbg{
+
+    background-color: #23263A;
+    width: 100%;
+}
+
 .port{
 
     text-align: center;
@@ -392,11 +406,11 @@ border-radius: 60px;
 
 }
 
-#pricing{
+/* #pricing{ */
 
     /* background-color: #1F2235; */
 
-}
+/* } */
 
 #plans{
     margin: 30px 185px 30px 185px;
@@ -427,7 +441,8 @@ background-color: #23263A;
     background-color: #DB3949;
     width: 40%;
     height: 40%;
-    border-radius: 25px ;
+    border-bottom-left-radius: 25px ;
+    border-bottom-right-radius: 25px ;
     margin-left: 106px;
 }
 
@@ -499,4 +514,89 @@ background-color: #23263A;
 
 .overpara{
     font-size: 16px;
+}
+
+
+/* testimonial styling starts here  */
+
+#testimony{
+    margin: 200px 250px 30px 200px;
+   
+}
+
+.testbtn{
+    
+    margin-top: 30px;
+}
+
+#next{
+    padding-left: 90px;
+}
+
+#test2a{
+
+    padding-top: 20px;
+
+}
+
+#article{
+
+    padding-top: 70px;
+    background-color: #23263A;
+}
+
+.star{
+    color: red;
+    font-size: 20px;
+}
+
+.rad{
+    width: 90px;
+    height: 90px;
+    border: #fff solid 1px;
+    border-radius: 50%;
+    
+}
+
+
+.nextrad{
+    width: 25px;
+    height: 25px;
+    border: #fff solid 1px;
+    border-radius: 50%;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+
+#test2b{
+
+    padding: 25px 70px 0px 0px;
+}
+
+
+
+#logos{
+    margin: 200px 220px 0px 220px;
+    opacity: 0.7;
+}
+
+#logver:hover{
+
+    opacity: 1;
+} 
+
+#righttestimony{
+
+    padding-left: 90px;
+}
+
+
+
+/* blog styling begins here */
+
+
+#blog{
+
+    background-color: #1F2235;
+    padding-top: 100px;
 }
