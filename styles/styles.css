@@ -600,3 +600,44 @@ background-color: #23263A;
     background-color: #1F2235;
     padding-top: 100px;
 }
+
+.blog1{
+    background-color: #23263A;
+}
+
+.blogimage{
+    width: 100%;
+    height: 250px;
+}
+
+.little1{
+    /* padding-right: 30px; */
+    margin: 10px 130px 0px 10px;
+}
+
+.push{
+   
+    padding-right: 7px;
+ 
+    margin-bottom: 20px;
+}
+
+.down{
+ 
+    padding: 70px 130px 20px 130px ;
+}
+.readmore{
+    margin: 50px 10px;
+    color: #DB3949;
+}
+
+.ibod{
+    color: #23263A;
+    background-color: #DB3949;
+    width: 20px;
+    padding-left: 2px;
+    border-radius: 50%;
+    font-size: 15px;
+    height: 20px;
+  padding-top: 3px;
+}
