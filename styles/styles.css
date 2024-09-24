@@ -727,8 +727,28 @@ background-color: #23263A;
     margin-bottom: 50px;
     
 }
+.footicon{
+    border: none;
+    margin-left: 300px;
+   
+  
+}
+
+.footercon{
+
+    display: flex;
+
+}
+
+#copyright{
+    padding:30px 0px 10px 400px;
+   
+}
 
 
+.footerspace{
+    padding: 70px 0px 40px 0px;
+}
 
 
 
@@ -741,5 +761,5 @@ background-color: #23263A;
 
 footer{
 
-    background-color: #23263A;
+    background-color: rgb(35,38,58);
 }
