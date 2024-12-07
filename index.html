@@ -7,25 +7,31 @@
     <title>Monsuru Portfolio</title>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/8d8255153f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
     <!-- header part -->
-    <header>
+    <header class="rowcontent">
         <div>
-            <img src="./images/amikelogo.png" alt="amikelogo" id="brandlogo">
+            <img id="brandlogo" src="./images/amikelogo.png" alt="amikelogo" id="brandlogo">
         </div>
 
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#blog">Blogs</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="rowcontent">
+                <li class=""><a href="#home">Home</a></li>
+                <li class=""><a href="#services">Services</a></li>
+                <li class=""><a href="#about">About</a></li>
+                <li class=""><a href="#skills">Skills</a></li>
+                <li class=""><a href="#portfolio">Portfolio</a></li>
+                <li class=""><a href="#blog">Blogs</a></li>
+                <li class=""><a href="#contact">Contact</a></li>
 
             </ul>
         </nav>
@@ -35,12 +41,12 @@
     <!-- main part -->
     <main>
         <!-- home section -->
-        <section id="home">
+        <section id="home" class="rowcontent">
 
             <div id="leftbox">
                 <!-- social icons -->
 
-                <div>
+                <div class="rowcontent" id="icons">
 
                     <div class="socialicon">
                         <i class="fa-brands fa-facebook"></i>
@@ -65,13 +71,14 @@
                 </div>
 
                 <!-- text content -->
-                <h1>Hi, I'm Monsuru</h1>
-                <p>I am Monsuru,professional web developer with long time experience in this field​ </p>
+                <h1 class="sectiontitle">Hi, I'm Monsuru Taiwo</h1>
+                <p id="textcontent">I am Monsuru, professional web developer with long time experience in this field​
+                </p>
 
                 <!-- cta button -->
                 <div>
                     <button class="button">My Portfolio</button>
-                    <button><i class="fa-solid fa-play"></i></button>
+                    <button id="play"><i class="fa-solid fa-play"></i></button>
                 </div>
 
 
@@ -79,111 +86,115 @@
             </div>
 
             <div id="rightbox">
-                <img src="./images/amikeman.png" alt="amikeman">
+                <img id="profile" src="./images/amikeman.png" alt="amikeman">
             </div>
 
-        </section> <br>
+        </section>
+        <!-- <br> -->
 
 
         <!-- services section -->
         <section id="services">
             <!-- apart from the home section every other section has an id that is similar to the section name -->
-            <div id="topbox">
-                <h2>Services</h2>
-                <p>My Services</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga placeat praesentium quae
-                    necessitatibus laudantium laborum perferendis incidunt voluptates quaerat temporibus.</p>
+            <div class="colcontent">
+                <p class="smalltitle">Services</p>
+                <h2 class="sectiontitle">My Services</h2>
+                <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga placeat praesentium
+                    quaes. Lorem ipsum dolor sit amet.</p>
+                <hr class="divider">
             </div>
-            <hr>
-            <div id="bottombox">
-                <div id="servicecard">
+
+
+            <div id="bottombox" class="rowcontent">
+                <div class="servicecard">
                     <i class="fa-brands fa-github"></i>
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
 
                 </div>
 
-                <div id="servicecard"></div>
-                <i class="fa-solid fa-web-awesome"></i>
-                <h3>Web Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
+                <div class="servicecard">
+                    <i class="fa-solid fa-web-awesome"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
+
+                </div>
+
+                <div class="servicecard">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>Video Editing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
+
+                </div>
+
+
+                <div class="servicecard">
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h3>Photography</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
+
+                </div>
+
+                <div class="servicecard">
+                    <i class="fa-brands fa-apple"></i>
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
+
+                </div>
+
+                <div class="servicecard">
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h3>Software Testing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
+
+                </div>
+
+
 
             </div>
-
-            <div id="servicecard"></div>
-            <i class="fa-solid fa-video"></i>
-            <h3>Video Editing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
-
-            </div>
-            <br>
-
-            <div id="servicecard">
-                <i class="fa-solid fa-photo-film"></i>
-                <h3>Photography</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
-
-            </div>
-
-            <div id="servicecard"></div>
-            <i class="fa-brands fa-apple"></i>
-            <h3>App Development</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
-
-            </div>
-
-            <div id="servicecard"></div>
-            <i class="fa-brands fa-uncharted"></i>
-            <h3>Software Testing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptas.</p>
-
-            </div>
-
-
-
-            </div>
-        </section><br>
+        </section>
 
 
         <!-- about section -->
         <section id="about">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente natus molestias similique ad in
-                dignissimos odit dolorem fugiat velit, perspiciatis ab ullam eveniet corporis omnis cupiditate vero
-                ipsum corrupti nulla!</p>
-            <hr>
+            <div id="abouttop" class="colcontent">
+                <h2 class="sectiontitle">About Me</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente natus molestias
+                    similique ad incidunt!</p>
+                <hr class="divider">
+            </div>
 
-            <div id="aboutme">
+            <div id="aboutme" class="rowcontent">
 
                 <div id="aboutleft">
                     <img src="./images/amikemanabout.png" alt="amikeman">
                 </div>
                 <div id="aboutright">
-                    <h5>Hi There</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum incidunt laboriosam voluptatum
-                        aspernatur est rem sequi perferendis, dolore in reprehenderit.</p>
+                    <h5 class="sectiontitle">Hi There</h5>
+                    <p class="aboutpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum incidunt
+                        spernatur est rem sequi perferendis, dolore in reprehenderit.</p>
                     <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, voluptas.</p>
+                    <p class="aboutpara2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, voluptas.</p>
 
-                    <div id="namephone">
+                    <div id="namephone" class="rowcontent">
                         <div id="name">
-                            <h4>Name:</h4>
+                            <h4 class="smalltitle font">Name:</h4>
                             <p> TAIWO MONSURU</p>
                         </div>
                         <div id="phone">
-                            <h4>Phone:</h4>
+                            <h4 class="smalltitle font">Phone:</h4>
                             <p>08182447193</p>
                         </div>
 
                     </div>
 
-                    <div id="emaillink">
+                    <div id="emaillink" class="rowcontent">
                         <div id="email">
-                            <h4>Email:</h4>
+                            <h4 class="smalltitle font">Email:</h4>
                             <p>Taiwomonsuru29@gmail.com</p>
                         </div>
                         <div id="linkedin">
-                            <h4>Linkedin:</h4>
+                            <h4 class="smalltitle  font">Linkedin:</h4>
                             <p>Monsuru Taiwo</p>
                         </div>
 
@@ -191,317 +202,382 @@
                 </div>
 
 
-        </section> <br>
+        </section>
 
 
         <!-- skills section -->
         <section id="skills">
 
-            <div id="skills2">
+            <div id="skills2" class="rowcontent">
 
-                <div id="worktogether">
-                    <h5>I'M EXPERT ON</h5>
-                    <h3> Let's Work Together</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Beatae id provident, corrupti ipsa laboriosam hic? Excepturi
-                        voluptate facilis debitis corporis impedit tenetur. Soluta, harum iusto sit quasi obcaecati
-                        nam adipisci.</p>
+                <div id="worktogether" class="">
+                    <h5 class="smalltitle">I'M EXPERT ON</h5>
+                    <h3 class="sectiontitle"> Let's Work Together</h3>
+                    <p class="aboutpara">Lorem ipsum dolor sit amet consectetur adip<br>isicing elit. Lorem ipsum dolor
+                        sit amet
+                        cons<br>ectetur adipisicing elit. Beatae id provident,<br> corrupti ipsa laboriosam hic?
+                        Excepturi
+                        volu<br>ptate facilis debitis corporis impedit tenetur.</p>
 
-                    <button class="button">Hire Me Now</button>
+                    <button class="button padbtn">Hire Me Now</button>
                 </div>
 
                 <div class="experience">
-                    <h6>HTML</h6>
-                    <p>88%</p>
+                    <div class="rowcontent skills3">
+                        <h4>HTML</h4>
+                        <p class="skillrate">88%</p>
 
+                    </div>
 
-                    <h6>CSS</h6>
-                    <p>60%</p>
+                    <div class="rowcontent skills3 skillwid">
+                        <h4>CSS</h4>
+                        <p class="skillrate">70%</p>
 
-                    <h6>JAVASCRIPT</h6>
-                    <p>60%</p>
+                    </div>
 
-                    <h6>NodeJS</h6>
-                    <p>88%</p>
+                    <div class="rowcontent skills3 skillwid2">
+                        <h4>JAVASCRIPT</h4>
+                        <p class="skillrate">65%</p>
+
+                    </div>
+
+                    <div class="rowcontent skills3 skillwid3">
+                        <h4>NodeJS</h4>
+                        <p class="skillrate">48%</p>
+
+                    </div>
                 </div>
 
             </div>
-            </div>
 
-        </section><br>
+
+        </section>
 
 
         <!-- portfolio section -->
         <section id="portfolio">
 
-            <h2>Portfolio <br>Showcase</h2>
-            <p>We’re a WordPress Theme Development company . With more than ten years of knowledge and expertise.</p>
-            <hr>
 
-            <nav>
+            <div class="portbg">
+                <div class="colcontent">
 
+                    <div class="port">
 
-                <button><a href="">All Works</a></button>
-                <button><a href="">Art Direction</a></button>
-                <button><a href="">Branding</a></button>
-                <button><a href="">Design</a></button>
-                <button><a href="">Web</a></button>
+                        <h2 class="sectiontitle">Portfolio</h2>
+                        <h2 class="sectiontitle">Showcase</h2>
 
+                    </div>
+                    <p class="para">We’re a WordPress Theme Development company . With more than ten years of knowledge
+                        and expertise.
+                    </p>
+                    <hr class="divider">
 
-
-            </nav> <br>
-
-            <div id="portimages">
-
-                <div id="leftportimage">
-                    <img src="./images/port1.jpg" alt="">
-                    <img src="./images/port2.jpg" alt="">
-                    <img src="./images/port3.jpg" alt="">
-                </div>
-                <div id="middleportimage">
-                    <img src="./images/port4.jpg" alt="">
-                    <img src="./images/port5.jpg" alt="">
-                </div>
-                <div id="rightportimage">
-                    <img src="./images/port6.jpg" alt="">
-                    <img src="./images/port7.jpg" alt="">
-                    <img src="./images/port8.jpg" alt="">
                 </div>
 
+                <nav class="portnav">
+
+
+                    <button class="portbtn"><a href="">All Works</a></button>
+                    <button class="portbtn"><a href="">Art Direction</a></button>
+                    <button class="portbtn"><a href="">Branding</a></button>
+                    <button class="portbtn"><a href="">Design</a></button>
+                    <button class="portbtn"><a href="">Web</a></button>
+
+
+
+                </nav> <br>
+
+                <div id="portimages" class="rowcontent">
+
+                    <div id="leftportimage" class="imagecol">
+                        <img src="./images/port1.jpg" alt="" width="90%" height="40%" class="portradius">
+                        <img src="./images/port2.jpg" alt="" width="90%" height="30%" class="portradius">
+                        <img src="./images/port3.jpg" alt="" width="90%" height="50%" class="portradius">
+                    </div>
+                    <div id="middleportimage" class="imagecol">
+                        <img src="./images/port4.jpg" alt="" width="90%" height="60%" class="portradius">
+                        <img src="./images/port5.jpg" alt="" width="90%" height="60%" class="portradius">
+                    </div>
+                    <div id="rightportimage" class="imagecol">
+                        <img src="./images/port6.jpg" alt="" width="90%" height="40%" class="portradius">
+                        <img src="./images/port7.jpg" alt="" width="90%" height="40%" class="portradius">
+                        <img src="./images/port8.jpg" alt="" width="90%" height="40%" class="portradius">
+                    </div>
+
+                </div>
             </div>
+
+
+            <!-- pricing section -->
+
             <div id="pricing">
 
-                <p>CHOOSE A PLAN </p>
-                <h3>Pricing Plan</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis omnis vitae veniam beatae quo
-                    numquam.</p>
-                <hr>
+                <div class="colcontent">
+
+                    <p class="smalltitle">CHOOSE A PLAN </p>
+                    <h3 class="sectiontitle">Pricing Plan</h3>
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis omnis vitae
+                        veniam beatae quo
+                        numquam.</p>
+                    <hr class="divider">
+                </div>
 
 
-                <div id="plans">
+                <div id="plans" class="rowcontent">
                     <div id="leftplans">
                         <h3>Basic</h3>
-                        <h2>$50</h2>
+                        <h2 class="sectiontitle">$50</h2>
                         <p>5GB Storage Space</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>20GB Monthly Bandwidth</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>My SQL Databases</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>100 Email Account</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>10 Free Domain Names</p>
-                        <hr>
-                        <button class="button">Purchase</button>
+                        <hr class="divider2">
+                        <button class="button pricebtn">Purchase</button>
                     </div>
                     <div id="middleplans">
-                        <p>Recomended</p>
+                        <h6 class="recom">Recomended</h6>
                         <h3>Standard</h3>
-                        <h2>$80</h2>
+                        <h2 class="sectiontitle">$80</h2>
                         <p>5GB Storage Space</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>20GB Monthly Bandwidth</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>My SQL Databases</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>100 Email Account</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>10 Free Domain Names</p>
-                        <hr>
-                        <button id="Recomended">Purchase</button>
+                        <hr class="divider2">
+                        <button id="recomended">Purchase</button>
                     </div>
                     <div id="rightplans">
                         <h3>Premium</h3>
-                        <h2>$160</h2>
+                        <h2 class="sectiontitle">$160</h2>
                         <p>5GB Storage Space</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>20GB Monthly Bandwidth</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>My SQL Databases</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>100 Email Account</p>
-                        <hr>
+                        <hr class="divider2">
                         <p>10 Free Domain Names</p>
-                        <hr>
-                        <button class="button">Purchase</button>
+                        <hr class="divider2">
+                        <button class="button pricebtn">Purchase</button>
 
                     </div>
                 </div>
             </div> <br><br>
 
-            <div id="overview">
+
+            <!-- overview section -->
+
+            <div id="overview" class="rowcontent">
                 <div id="over1">
-                    <i class="fa-solid fa-people-group fa-bounce"></i>
-                    <h2>47</h2>
-                    <P>Clients</P>
+                    <i class="fa-solid fa-people-group fa-bounce overicon"></i>
+                    <h2 class="overfont">47</h2>
+                    <P class="overpara">Clients</P>
                 </div>
                 <div id="over2">
-                    <i class="fa-solid fa-cube"></i>
-                    <h2>64</h2>
-                    <P>Projects</P>
+                    <i class="fa-solid fa-cube overicon"></i>
+                    <h2 class="overfont">64</h2>
+                    <P class="overpara">Projects</P>
                 </div>
                 <div id="over3">
-                    <i class="fa-solid fa-gem"></i>
-                    <h2>23</h2>
-                    <P>Awards</P>
+                    <i class="fa-solid fa-gem overicon"></i>
+                    <h2 class="overfont">23</h2>
+                    <P class="overpara">Awards</P>
                 </div>
                 <div id="over4">
-                    <i class="fa-solid fa-globe"></i>
-                    <h2>12</h2>
-                    <P>Years of Experience</P>
+                    <i class="fa-solid fa-globe overicon"></i>
+                    <h2 class="overfont">12</h2>
+                    <P class="overpara">Years of Experience</P>
                 </div>
             </div>
+
+            <!-- testimonal section -->
 
             <div id="testimony">
 
-                <div id="lefttestimony">
-                    <h5>OUR TESTIMONIAL</h5>
-                    <h2>Happy Clients <br>Says</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non ex maxime, quo itaque sed
-                        harum, impedit fugiat nobis repudiandae nihil, labore unde provident omnis dicta fugit quaerat!
-                        Eveniet, voluptas.</p>
-                    <button class="button">Learn More</button>
+                <div class="rowcontent">
+                    <div id="lefttestimony">
+                        <h5 class="smalltitle">OUR TESTIMONIAL</h5>
+                        <h2 class="sectiontitle">Happy Clients <br>Says</h2>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Nulla non ex maxime,
+                            quo itaque sed
+                            harum, impedit fugiat nobis repudiandae nihil, labore unde <br> provident omnis dicta fugit
+                            quaerat! Eveniet, voluptas.</p>
+                        <button class="button testbtn">Learn More</button>
 
-                </div>
-                <br>
-                <div id="righttestimony">
-                    <div id="article">
-                        <i class="fa-solid fa-quote-left"></i>
-                        <p>In promotion and advertising testimonal, the client is an important part of the presentation.
-                        </p>
-                        <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
+                    </div>
+                    <br>
+                    <div id="righttestimony">
+                        <div id="article">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>In promotion and advertising testimonal, the client is an important part of the
+                                presentation.
+                            </p>
+                            <p class="star"> ★★★★★</p>
 
-                        <div id="test">
-                            <div id="test1a">
-                                <img src="./images/test1.jpg" alt="testimonial">
-                            </div>
-                            <div id="test1b">
-                                <h3>John Deo</h3>
-                                <p>Founder Of Woo</p>
+                            <div id="test">
+
+                                <!-- the content below is not needed for now maybe later in JAVASCRIPT -->
+                                <!-- <div id="test1a"> -->
+                                <!-- <img src="./images/test1.jpg" alt="testimonial"> -->
+                                <!-- </div> -->
+                                <!-- <div id="test1b"> -->
+                                <!-- <h3>John Deo</h3> -->
+                                <!-- <p>Founder Of Woo</p> -->
+                                <!-- </div> -->
+
+                                <div id="test2a" class="rowcontent">
+                                    <img class="rad" src="./images/test2.jpg" alt="testimonial">
+
+                                    <div id="test2b">
+                                        <h3>John Deo</h3>
+                                        <div class="rowcontent">
+                                            <p>Founder Of Woo</p>
+
+                                            <div id="next">
+
+                                                <i class="fa-solid fa-chevron-left nextrad"></i>
+                                                <i class="fa-solid fa-chevron-right nextrad"></i>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
 
-                            <div id="test2a">
-                                <img src="./images/test2.jpg" alt="testimonial">
-                            </div>
-                            <div id="test2b">
-                                <h3>John Deo</h3>
-                                <p>Founder Of Woo</p>
-                            </div>
+
                         </div>
-                        <div id="next">
-                            <i class="fa-solid fa-arrow-left"></i>
-                            <i class="fa-solid fa-arrow-right"></i>
 
-                        </div>
                     </div>
 
                 </div>
-
             </div>
 
-            <div id="logos">
+            <div id="logos" class="rowcontent">
 
-                <img src="./images/logo1.png" alt="logo">
-                <img src="./images/logo2.png" alt="logo">
-                <img src="./images/logo03.png" alt="logo">
-                <img src="./images/logo5.png" alt="logo">
-                <img src="./images/logo4.png" alt="logo">
+                <img src="./images/logo1.png" alt="logo" class="logver">
+                <img src="./images/logo2.png" alt="logo" class="logver">
+                <img src="./images/logo03.png" alt="logo" class="logver">
+                <img src="./images/logo5.png" alt="logo" class="logver">
+                <img src="./images/logo4.png" alt="logo" class="logver">
             </div>
 
 
-        </section><br>
+        </section>
 
 
         <!-- blog section -->
         <section id="blog">
 
-            <h5>LATEST POST</h5>
-            <h2>Latest Blog</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, accusantium molestias. Aperiam
-                similique eos iusto?</p>
-            <hr>
-
-            <div id="blog1">
-                <img src="./images/blog1.jpg" alt="blog1">
-                <div id="little1">
-                    <i class="fa-solid fa-user"></i>
-                    <p>By Admin</p> <i class="fa-solid fa-calendar"></i>
-                    <p>Tuesday</p> <i class="fa-solid fa-comments"></i>
-                    <p>3</p>
-                </div>
-                <p>Ten Secrets You Will Not Want To Know</p>
-                <div class="readmore"><button>Read More <i class="fa-solid fa-right-long"></i></button>
-                </div>
-            </div>
-            <div id="blog2">
-                <img src="./images/blog2.jpg" alt="blog2">
-                <div id="little2">
-                    <i class="fa-solid fa-user"></i>
-                    <p>By Admin</p> <i class="fa-solid fa-calendar"></i>
-                    <p>Wednesday</p> <i class="fa-solid fa-comments"></i>
-                    <p>3</p>
-                </div>
-                <p>you've gotta dance like there is nobody watching</p>
-                <div class="readmore"><button>Read More <i class="fa-solid fa-right-long"></i></button>
-                </div>
-            </div>
-            <div id="blog3">
-                <img src="./images/blog3.jpg" alt="blog3">
-                <div class="little3">
-                    <i class="fa-solid fa-user"></i>
-                    <p>By Admin</p> <i class="fa-solid fa-calendar"></i>
-                    <p>Saturday</p> <i class="fa-solid fa-comments"></i>
-                    <p>3</p>
-                </div>
-                <p>I must explain to you how all this mistaken idea</p>
-                <div class="readmore"><button>Read More <i class="fa-solid fa-right-long"></i></button>
-                </div>
+            <div class="colcontent">
+                <h5 class="smalltitle">LATEST POST</h5>
+                <h2 class="sectiontitle">Latest Blog</h2>
+                <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, accusantium molestias.
+                    Aperiam
+                    similique eos iusto?</p>
+                <hr class="divider">
             </div>
 
-        </section><br>
+
+            <div class="rowcontent down">
+
+                <div class="blog1">
+                    <img src="./images/blog1.jpg" alt="blog1" class="blogimage">
+                    <div class="little1 rowcontent">
+                        <i class="fa-solid fa-user push"></i>
+                        <p class="smalltitle push">By Admin</p> <i class="fa-solid fa-calendar push"></i>
+                        <p class="push">Tuesday</p> <i class="fa-solid fa-comments push"></i>
+                        <p>3</p>
+                    </div>
+                    <p>Ten Secrets You Will Not <br> Want To Know</p>
+                    <div><p><b class="readmore">Read More</b> <i class="fa-solid fa-right-long readmore ibod"></i></p>
+                    </div>
+                </div>
+                <div class="blog1">
+                    <img src="./images/blog2.jpg" alt="blog2" class="blogimage">
+                    <div class="little1 rowcontent">
+                        <i class="fa-solid fa-user push"></i>
+                        <p class="smalltitle push">By Admin</p> <i class="fa-solid fa-calendar push"></i>
+                        <p class="push">Wednesday</p> <i class="fa-solid fa-comments push"></i>
+                        <p>3</p>
+                    </div>
+                    <p>You've gotta dance like <br>there is nobody watching</p>
+                    <div><p><b class="readmore">Read More</b> <i class="fa-solid fa-right-long readmore ibod"></i></p>
+                    </div>
+                </div>
+                <div class="blog1">
+                    <img src="./images/blog3.jpg" alt="blog3" class="blogimage" width="353px" height="232px">
+                    <div class="little1 rowcontent">
+                        <i class="fa-solid fa-user push"></i>
+                        <p class="smalltitle push">By Admin</p> <i class="fa-solid fa-calendar push"></i>
+                        <p class="push">Saturday</p> <i class="fa-solid fa-comments push"></i>
+                        <p>3</p>
+                    </div>
+                    <p>I must explain to you how all <br> this mistaken idea</p>
+                    <div><p><b class="readmore">Read More</b> <i class="fa-solid fa-right-long readmore ibod"></i></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
 
 
         <!-- contact section -->
         <section id="contact">
 
 
-            <div id="query">
-                <h5>HAVE ANY QUERY</h5>
-                <h2>Contact Me</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, accusantium molestias. Aperiam
+            <div id="query" class="colcontent">
+                <h5 class="smalltitle">HAVE ANY QUERY</h5>
+                <h2 class="sectiontitle">Contact Me</h2>
+                <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, accusantium molestias. Aperiam
                     similique eos iusto?</p>
-                <hr>
+                <hr class="divider">
             </div>
 
-            <div id="contacta">
-                <div id="contact1">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>123 Street, New York, USA</p>
+            <div id="contacta" class="rowcontent contactrow">
+                <div class="contact1" class="rowcontent ">
+                    <i class="fa-solid fa-location-dot icolor"></i>
+                    <p class="conpara"><b>Locate Us</b> <br> 123 Street, New York, USA</p>
                 </div>
-                <div id="contact2">
-                    <i class="fa-solid fa-envelope"></i>
-                    <p>uI8gZ@example.com</p>
+
+                 <div class="contact1" class="rowcontent ">
+                    <i class="fa-solid fa-phone icolor"></i>
+                    <p class="conpara"><b>Give Us A Call</b> <br>08182447193</p>
                 </div>
-                <div id="contact3">
-                    <i class="fa-solid fa-phone"></i>
-                    <p>08182447193</p>
+
+                <div class="contact1" class="rowcontent ">
+                    <i class="fa-solid fa-envelope icolor"></i>
+                    <p class="conpara"><b>Get In Online</b> <br>Taiwomonsuru29@gmail.com</p>
                 </div>
+               
             </div>
 
             <div id="contactb">
-                <div id="contactc">
+                <div id="contactc" class="rowcontent">
                     <div id="namecontact">
-                        <input type="text" placeholder="Your Name">
+                        <input class="consize" type="text" placeholder="Your Name">
                     </div>
                     <div id="emailcontact">
-                        <input type="email" placeholder="Your Email">
+                        <input class="consize" type="email" placeholder="Your Email">
                     </div>
                 </div><br>
-                <input type="text" placeholder="Subject"><br>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea><br>
-                <button>Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                <input class="subjectsize" type="text" placeholder="Subject"><br>
+                <textarea class="tsize" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea><br>
+                <button class="contbtn">Send Message</button>
             </div>
-        </section><br>
+        </section>
 
     </main>
 
@@ -510,28 +586,28 @@
     <!-- footer part -->
     <footer>
 
-        <div id="amikefooter">
+        <div id="amikefooter" class="colcontent">
 
-            <div>
+            <div class="footerspace">
                 <img src="./images/amikelogo.png" alt="amikelogo" id="brandlogo">
             </div>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, aut voluptatem ea quas
-                exercitationem, culpa iste, cumque nam officia suscipit dicta ratione dolorem reiciendis illo?</p>
+            <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, aut voluptatem ea quas
+                exercitationem, culpa iste, cumque nam officia suscipit dicta ratione dolorem reiciendis illo? Lorem ipsum dolor sit amet consectetur.</p>
 
         </div>
 
-        <div class="socialicon">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
+        <div class=" footercon ">
+            <i class="fa-brands fa-facebook-f socialicon footicon"></i>
+            <i class="fa-brands fa-twitter socialicon footicon"></i>
+            <i class="fa-brands fa-instagram socialicon footicon"></i>
+            <i class="fa-brands fa-linkedin-in socialicon footicon"></i>
         </div>
 
 
 
         <div id="copyright">
-            <p>Copyright&#169 Monsuru Portfolio 2024. All Right Reserved</p>
+            <p class="para">Copyright&#169 Monsuru Portfolio 2024. All Right Reserved</p>
 
         </div>
     </footer>
